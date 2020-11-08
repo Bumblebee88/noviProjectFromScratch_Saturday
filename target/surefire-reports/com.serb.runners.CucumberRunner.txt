@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.serb.runners.CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 89.793 s <<< FAILURE! - in com.serb.runners.CucumberRunner
-as a user i want to be able to create calendar events.Create calendar event with default time  Time elapsed: 45.223 s  <<< ERROR!
-java.lang.NullPointerException
-
-as a user i want to be able to create calendar events.Create calendar event with default time  Time elapsed: 45.225 s  <<< ERROR!
-java.lang.NullPointerException
-
-As user, I want to be able to create new cars.1. Add some car  Time elapsed: 41.965 s  <<< ERROR!
-java.lang.NullPointerException
-
-As user, I want to be able to create new cars.1. Add some car  Time elapsed: 41.965 s  <<< ERROR!
-java.lang.NullPointerException
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.529 s - in com.serb.runners.CucumberRunner

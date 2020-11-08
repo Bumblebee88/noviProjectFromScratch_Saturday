@@ -3,13 +3,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-08T22:56:01.455Z",
+        "start_timestamp": "2020-11-08T23:09:25.766Z",
         "before": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.serb.step_definitions.Hooks.setUp(Hooks.java:18)\r\n",
-              "duration": 23088000000,
-              "status": "failed"
+              "duration": 2036000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.serb.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
@@ -23,9 +22,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat com.serb.step_definitions.Hooks.tearDown(Hooks.java:40)\r\n",
-              "duration": 21027000000,
-              "status": "failed"
+              "duration": 89000000,
+              "status": "passed"
             },
             "match": {
               "location": "com.serb.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -37,7 +35,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 428000000,
+              "status": "passed"
             },
             "line": 30,
             "name": "user is on the login page",
@@ -48,7 +47,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2710000000,
+              "status": "passed"
             },
             "line": 31,
             "name": "user logs in as a \"store manager\"",
@@ -65,7 +65,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 21428000000,
+              "status": "passed"
             },
             "line": 32,
             "name": "user navigates to \"Activities\" and \"Calendar Event\"",
@@ -86,7 +87,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 442000000,
+              "status": "passed"
             },
             "line": 33,
             "name": "Click on \"Grid Options\" button",
@@ -103,7 +105,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2130000000,
+              "status": "passed"
             },
             "line": 34,
             "name": "Deselect all options except \"Title\"",
@@ -120,7 +123,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 597000000,
+              "status": "passed"
             },
             "line": 35,
             "name": "\"Title\" column still displayed",
