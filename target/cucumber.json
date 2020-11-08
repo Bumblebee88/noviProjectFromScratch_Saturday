@@ -1,0 +1,165 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-08T22:56:01.455Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.serb.step_definitions.Hooks.setUp(Hooks.java:18)\r\n",
+              "duration": 23088000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.serb.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "deselecting options",
+        "description": "",
+        "id": "as-a-user-i-want-to-be-able-to-create-calendar-events;deselecting-options",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.serb.step_definitions.Hooks.tearDown(Hooks.java:40)\r\n",
+              "duration": 21027000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.serb.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.serb.step_definitions.Login_StepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.serb.step_definitions.Login_StepDefinitions.user_logs_in_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user navigates to \"Activities\" and \"Calendar Event\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Calendar Event\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.serb.step_definitions.ComonStepDefinitions.user_navigates_to_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Click on \"Grid Options\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Grid Options\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.serb.step_definitions.CreateCalendarEventStep.click_on_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Deselect all options except \"Title\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Title\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.serb.step_definitions.CreateCalendarEventStep.deselect_all_options_except(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "\"Title\" column still displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Title\"",
+                  "offset": 0
+                }
+              ],
+              "location": "com.serb.step_definitions.CreateCalendarEventStep.column_still_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calendarEvents"
+          },
+          {
+            "name": "@TC2"
+          }
+        ]
+      }
+    ],
+    "name": "as a user i want to be able to create calendar events",
+    "description": "",
+    "id": "as-a-user-i-want-to-be-able-to-create-calendar-events",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Activity/CreateCalendarEvent.feature",
+    "tags": [
+      {
+        "name": "@calendarEvents",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

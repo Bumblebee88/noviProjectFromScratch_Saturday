@@ -46,7 +46,7 @@ Feature: As user i want to be able to login under different role
       | role          | page_title      |
       | sales manager | Dashboard       |
       | store manager | Dashboard       |
-      | driver        | Dashboard |
+      | driver        | Quick Launchpad |
 
      #    role - variable. You can name parameters as you want.
 #   1st row always reserved for parameters

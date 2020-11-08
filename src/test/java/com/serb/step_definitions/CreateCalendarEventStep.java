@@ -83,7 +83,7 @@ public class CreateCalendarEventStep extends BasePage  {
     @Then("{string} column still displayed")
     public void column_still_displayed(String string) {
 
-        Assert.assertEquals(string,calendarEventPage.isTitleDisplayed());
+        calendarEventPage.checkIfOptionIsSelected(string);
 
     }
 

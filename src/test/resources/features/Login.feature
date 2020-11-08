@@ -43,10 +43,10 @@ Feature: As user i want to be able to login under different role
     Then user should see "<page_title>"
 
     Examples:
-      | role          | page_title |
-      | sales manager | Dashboard  |
-      | store manager | Dashboard  |
-      | driver        | Dashboard  |
+      | role          | page_title      |
+      | sales manager | Dashboard       |
+      | store manager | Dashboard       |
+      | driver        | Quick Launchpad |
 
      #    role - variable. You can name parameters as you want.
 #   1st row always reserved for parameters
