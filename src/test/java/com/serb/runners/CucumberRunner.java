@@ -8,11 +8,12 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {
-                "rerun:target/rerun.txt"
+                "rerun:target/rerun.txt",
+                "json:target/cucumber.json"
         },
         features = "src\\test\\resources\\features",
         glue = "com\\serb\\step_definitions",
-        tags = "@parametrized_test",
+        tags = "@TC2",
         publish = false,
         dryRun = false
 
