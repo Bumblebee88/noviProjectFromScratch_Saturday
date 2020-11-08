@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         },
         features = "src\\test\\resources\\features",
         glue = "com\\serb\\step_definitions",
-        tags = "@TC2",
+        tags = "@parametrized_test",
         publish = false,
         dryRun = false
 
