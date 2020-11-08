@@ -1,6 +1,6 @@
 Feature: As user, I want to be able to create new cars
 
-  @add_car
+  @add_car @smoke
   Scenario: 1. Add some car
     Given user is on the login page
     And user logs in as a "store manager"

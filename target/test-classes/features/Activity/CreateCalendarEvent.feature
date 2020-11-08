@@ -2,7 +2,7 @@
 Feature: as a user i want to be able to create calendar events
 
 
-  @CalendarEvent
+  @CalendarEvent @smoke
   Scenario: Create calendar event with default time
     Given user is on the login page
     And user logs in as a "store manager"

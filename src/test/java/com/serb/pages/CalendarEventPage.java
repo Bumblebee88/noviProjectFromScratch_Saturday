@@ -44,6 +44,11 @@ private WebElement createCalendarEventBTN;
     @FindBy(xpath = "//i[@class='fa-cog hide-text']")
     private WebElement clickOnGridSettings;
                     //"//label[contains(text(),'Title')]")
+     @FindBy(xpath = "//tbody[@class='ui-sortable']/tr/td/input")
+     private List<WebElement> gridOptionsCheckBoxes;
+
+    @FindBy(xpath = "//tbody[@class='ui-sortable']/tr/td/label")
+    private List<WebElement> gridOptionsTitles;
 
     @FindBy(xpath = "//table//tbody//tr//td//label")
     private List<WebElement> uncheckingOptions;
@@ -105,7 +110,6 @@ private WebElement createCalendarEventBTN;
 
         }
 
-
     }
 
     public String displayedtime(String string){
@@ -116,18 +120,9 @@ private WebElement createCalendarEventBTN;
             BrowserUtils.wait(3);
           
         }
-
         return displayedEndBox.getText();
 
-
     }
-
-
-
-
-
-
-
 
 
     public void meetingLastingTime(Integer n){
@@ -193,8 +188,22 @@ private WebElement createCalendarEventBTN;
     }
 
 
-    public  String isTitleDisplayed(){
-      return   titleName.getText();
+    public void checkIfOptionIsSelected(String str){
+        String s = "";
+        for (WebElement each : gridOptionsTitles) {
+            if (!each.getText().equals(str)){
+                continue;
+            }
+            s=each.getAttribute("for");
+        }
+        for (WebElement each : gridOptionsCheckBoxes){
+            if (!each.getAttribute("id").equals(s)){
+                continue;
+            }
+            Assert.assertTrue(each.isSelected());
+            return;
+        }
+        throw new RuntimeException("option wasn't found");
     }
 
 
