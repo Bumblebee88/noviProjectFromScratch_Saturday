@@ -54,7 +54,7 @@ Feature: As user i want to be able to login under different role
 # auto-formatting on windows: control + alt + L
 #"driver" - is a parameter. "" allows to do test parametrization which helps to re-use test steps
 
-  @negative_login
+  @negative_login @smoke
 
   Scenario: Invalid password
     Given user is on the login page
