@@ -1,0 +1,159 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T01:36:33.950Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9622000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.serb.step_definitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify that \"view\", \"edit\" and \"delete\" options are available",
+        "description": "",
+        "id": "as-a-user-i-want-to-be-able-to-create-calendar-events;verify-that-\"view\"--\"edit\"-and-\"delete\"-options-are-available",
+        "after": [
+          {
+            "result": {
+              "duration": 1655000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.serb.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1031000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.serb.step_definitions.Login_StepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6869000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user logs in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.serb.step_definitions.Login_StepDefinitions.user_logs_in_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21123000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user navigates to \"Activities\" and \"Calendar Event\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Calendar Event\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.serb.step_definitions.ComonStepDefinitions.user_navigates_to_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Hover on three dots for \"Test Event\" calendar event",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Event\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.serb.step_definitions.CreateCalendarEventStep.hover_on_three_dots_for_calendar_event(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3175000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify that \"View\", \"Edit\" and \"Delete\" options are available",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"View\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Edit\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Delete\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.serb.step_definitions.CreateCalendarEventStep.verify_that_and_options_are_available(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calendarEvents"
+          },
+          {
+            "name": "@TC1"
+          }
+        ]
+      }
+    ],
+    "name": "as a user i want to be able to create calendar events",
+    "description": "",
+    "id": "as-a-user-i-want-to-be-able-to-create-calendar-events",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Activity/CreateCalendarEvent.feature",
+    "tags": [
+      {
+        "name": "@calendarEvents",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
