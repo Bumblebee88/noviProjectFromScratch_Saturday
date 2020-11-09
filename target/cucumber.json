@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-09T01:36:33.950Z",
+        "start_timestamp": "2020-11-09T01:51:39.372Z",
         "before": [
           {
             "result": {
-              "duration": 9622000000,
+              "duration": 8273000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 21,
-        "name": "Verify that \"view\", \"edit\" and \"delete\" options are available",
+        "line": 29,
+        "name": "deselecting options",
         "description": "",
-        "id": "as-a-user-i-want-to-be-able-to-create-calendar-events;verify-that-\"view\"--\"edit\"-and-\"delete\"-options-are-available",
+        "id": "as-a-user-i-want-to-be-able-to-create-calendar-events;deselecting-options",
         "after": [
           {
             "result": {
-              "duration": 1655000000,
+              "duration": 1597000000,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1031000000,
+              "duration": 821000000,
               "status": "passed"
             },
-            "line": 22,
+            "line": 30,
             "name": "user is on the login page",
             "match": {
               "location": "com.serb.step_definitions.Login_StepDefinitions.user_is_on_the_login_page()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 6869000000,
+              "duration": 7432000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 31,
             "name": "user logs in as a \"store manager\"",
             "match": {
               "arguments": [
@@ -65,10 +65,10 @@
           },
           {
             "result": {
-              "duration": 21123000000,
+              "duration": 21171000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 32,
             "name": "user navigates to \"Activities\" and \"Calendar Event\"",
             "match": {
               "arguments": [
@@ -87,45 +87,55 @@
           },
           {
             "result": {
-              "duration": 190000000,
+              "duration": 308000000,
               "status": "passed"
             },
-            "line": 25,
-            "name": "Hover on three dots for \"Test Event\" calendar event",
+            "line": 33,
+            "name": "Click on \"Grid Options\" button",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Test Event\"",
-                  "offset": 24
+                  "val": "\"Grid Options\"",
+                  "offset": 9
                 }
               ],
-              "location": "com.serb.step_definitions.CreateCalendarEventStep.hover_on_three_dots_for_calendar_event(java.lang.String)"
+              "location": "com.serb.step_definitions.CreateCalendarEventStep.click_on_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1688000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Deselect all options except \"Title\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Title\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.serb.step_definitions.CreateCalendarEventStep.deselect_all_options_except(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3175000000,
+              "duration": 215000000,
               "status": "passed"
             },
-            "line": 26,
-            "name": "Verify that \"View\", \"Edit\" and \"Delete\" options are available",
+            "line": 35,
+            "name": "\"Title\" column still displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"View\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"Edit\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"Delete\"",
-                  "offset": 31
+                  "val": "\"Title\"",
+                  "offset": 0
                 }
               ],
-              "location": "com.serb.step_definitions.CreateCalendarEventStep.verify_that_and_options_are_available(java.lang.String,java.lang.String,java.lang.String)"
+              "location": "com.serb.step_definitions.CreateCalendarEventStep.column_still_displayed(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -135,7 +145,7 @@
             "name": "@calendarEvents"
           },
           {
-            "name": "@TC1"
+            "name": "@TC2"
           }
         ]
       }
