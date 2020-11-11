@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-09T01:51:39.372Z",
+        "start_timestamp": "2020-11-10T21:53:11.827Z",
         "before": [
           {
             "result": {
-              "duration": 8273000000,
+              "duration": 10984000000,
               "status": "passed"
             },
             "match": {
@@ -22,8 +22,9 @@
         "after": [
           {
             "result": {
-              "duration": 1597000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d86.0.4240.193)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027URKE\u0027, ip: \u0027192.168.1.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\uros\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1d26b1c828ee154369459a9704ef4793\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat com.serb.step_definitions.Hooks.tearDown(Hooks.java:40)\r\n",
+              "duration": 12024000000,
+              "status": "failed"
             },
             "match": {
               "location": "com.serb.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -35,7 +36,7 @@
         "steps": [
           {
             "result": {
-              "duration": 821000000,
+              "duration": 841000000,
               "status": "passed"
             },
             "line": 30,
@@ -47,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 7432000000,
+              "duration": 2437000000,
               "status": "passed"
             },
             "line": 31,
@@ -65,8 +66,9 @@
           },
           {
             "result": {
-              "duration": 21171000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d86.0.4240.193)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027URKE\u0027, ip: \u0027192.168.1.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\uros\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1d26b1c828ee154369459a9704ef4793\n*** Element info: {Using\u003dcss selector, value\u003d[class\u003d\u0027loader-mask\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)\r\n\tat com.sun.proxy.$Proxy19.stream(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$45.apply(ExpectedConditions.java:1315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$45.apply(ExpectedConditions.java:1311)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat com.serb.pages.BasePage.navigateTo(BasePage.java:41)\r\n\tat com.serb.step_definitions.ComonStepDefinitions.user_navigates_to_and(ComonStepDefinitions.java:14)\r\n\tat ✽.user navigates to \"Activities\" and \"Calendar Event\"(file:///C:/Users/uros/IdeaProjects/noviProjectFromScratch_Saturday/src/test/resources/features/Activity/CreateCalendarEvent.feature:32)\r\n",
+              "duration": 17137000000,
+              "status": "failed"
             },
             "line": 32,
             "name": "user navigates to \"Activities\" and \"Calendar Event\"",
@@ -87,8 +89,7 @@
           },
           {
             "result": {
-              "duration": 308000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 33,
             "name": "Click on \"Grid Options\" button",
@@ -105,8 +106,7 @@
           },
           {
             "result": {
-              "duration": 1688000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "Deselect all options except \"Title\"",
@@ -123,8 +123,8 @@
           },
           {
             "result": {
-              "duration": 215000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 35,
             "name": "\"Title\" column still displayed",

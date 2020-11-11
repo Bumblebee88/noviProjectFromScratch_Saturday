@@ -61,7 +61,7 @@ Feature: as a user i want to be able to create calendar events
           And user clicks on create calendar button
           Then difference between end and start time is exactly 1 hour
 
-       @TC6
+       @TC6 @smoke
        Scenario: time equal to 10 pm
          Given user is on the login page
          And user logs in as a "store manager"

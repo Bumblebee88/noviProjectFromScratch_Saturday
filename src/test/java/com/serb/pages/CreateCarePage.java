@@ -19,6 +19,7 @@ public class CreateCarePage extends BasePage{
     private WebElement modelYearInputBox;
 
     public void clickOnCreateCar() {
+
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 20);
         wait.until(ExpectedConditions.elementToBeClickable(createCarBtn)).click();
         System.out.println("Clicking on 'Create car' button");
